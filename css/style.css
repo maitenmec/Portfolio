@@ -1,0 +1,472 @@
+
+*{ 
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+#cv {margin-left: 4px;
+    margin-top: 8px;
+}
+#cv a{
+    text-decoration: none;
+    color:#CB4B16 ;
+font-size:17px;
+}
+#paca {
+  
+    margin-top: 50px;
+   margin-bottom: 50px;
+    box-shadow: 1px 1px 100px 1px red;
+    border-radius: 17px;
+    animation: color    2s  infinite; 
+
+}
+ 
+
+@keyframes color {
+    
+    from{box-shadow: 1px 1px 60px 1px red;}
+    to {box-shadow:  1px 1px 0px 1px black;
+        
+    }
+}
+
+
+
+#mec {
+    font-size: 30px;
+}
+#fuegonav {height: 20px;
+    transition: ease-in-out 2s;
+    animation: mueve1 2s  infinite; 
+
+}
+
+#fuegopdf {height: 20px;
+
+}
+#cv:hover{
+    border-bottom: solid #CB4B16 1px;
+}
+
+
+@keyframes mueve1  {
+    from{
+        
+        transform: translate(0px, 0px); 
+       }
+
+    50% {
+        
+        transform: translate(0px, -5px); }
+        
+   
+    to{
+        transform: translate(0px, 0px);
+    }
+}
+
+  
+button{
+    color:#CB4B16; 
+}
+
+#menu {
+    border-top: solid 1px #CB4B16;
+    border-left: solid 1px #CB4B16;
+   border-right: solid 1px #CB4B16;
+ border-bottom: solid 1px #CB4B16;
+   position: fixed;
+  left: 0;
+  right: 0; 
+  top: 0;
+    width: 100%;
+    border-radius: 11px;
+z-index: 1000;
+}
+
+#rojo{
+
+color: #CB4B16;
+
+}
+#tododemi {
+   
+    border-radius: 10px;
+margin-top: 5%;
+width: 100%;
+}
+
+
+#voley, #auto ,#maiten{
+width: 100%;
+    height: 50vh;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 20px;
+}
+#fuego{
+
+    height: 30px;
+    transition: ease-in-out 2s;
+    animation: mueve 2s  infinite; 
+
+}
+
+@keyframes mueve {
+
+    from{
+        
+        transform: translate(0px, 0px); 
+       }
+
+    50% {
+        
+        transform: translate(0px, -2px); }
+        
+   
+    to{
+        transform: translate(0px, 0px);
+    }
+
+}
+
+#textolargo { font-size:17px ; }
+
+
+#seccionp {
+    font-size: 200%;
+
+;
+}
+
+#colhtml,#colcss,#colboot,#coljava{
+    margin-top: 2%;
+
+}
+
+#html,#css3 , #boot ,#java {
+    
+    margin-left: 2%;
+margin-top: 1%;
+}
+  
+
+
+#boot{
+    margin-top: 10%;
+}
+  
+#boot:hover {
+    background-color: white;
+}
+
+#boot path:hover{
+  fill: purple   
+}
+
+#html path:hover{
+    fill: orange;
+}
+#css3 path:hover{
+    fill: #4040ff ;
+}
+
+#java path:hover{
+    fill:yellow
+
+}
+
+#htmlp {
+  font-size: 120%;
+    color: orange;
+    
+    
+}
+#cssp {
+    font-size: 120%;
+    color: #4040ff;
+}
+#bootp{
+    color: purple;
+    font-size: 120%;
+}
+#jvsp {
+    color: yellow;
+    font-size: 120%;
+}
+
+#html:hover,#css3:hover,#java:hover {
+    opacity:0,2;
+    animation-name: rotar;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    border-bottom: solid 1px#CB4B16 ;
+}
+
+@keyframes rotar { 
+    from { 
+        transform:rotatey(0deg);}
+        
+        to {
+          
+         
+           transform: rotatey(360deg);}
+}
+
+#boot:hover{
+ animation-name: rotar2;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease;
+overflow:auto;
+
+border-bottom: #CB4B16 1px;
+
+
+
+    
+}
+
+@keyframes rotar2 { 
+    from { 
+        transform:rotatex(0deg);}
+        
+     50% {transform: rotateX(-160deg);}
+
+        to {
+          
+         
+           transform: rotatex(360deg);}
+}
+
+
+
+#proyectop {
+    font-size: 100%;
+color: white;
+}
+
+#imgproyecto {
+
+    height: 60vh;
+} 
+
+
+form{
+margin: 0;
+    padding: auto;
+}
+
+#formulario {
+padding-top: 1%;
+padding-bottom: 2%;   
+padding-left: 30%;
+
+}
+
+#name,#mensaje,#email , #enviar{
+font-size: 15px;
+width:50% ;
+
+
+}
+#mensaje,#name, #email{
+border: solid #CB4B16 1px;
+}
+
+#mensaje:hover,#name:hover,#email:hover{
+    background-color: #CB4B16;
+}
+
+
+#label1 {
+    font-size: 17px;
+}
+
+#enviar{
+    margin-top: 15px;
+}
+
+li:hover{
+    background-color:#CB4B16  ;
+}
+
+
+
+
+
+#yo ,#skill, #proyecto,#contacto{
+      border-bottom:solid #CB4B16 1px ;
+  border-top: solid#CB4B16 1px ;
+      background-color: #241F1F;
+
+    }
+
+
+#skill,#proyecto , #contacto{
+    margin-top: 60px;
+
+}
+
+  
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.contenedor img {
+    margin-top: 3%;
+}
+.texto-encima{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#centro{
+
+color:white ;
+}
+
+
+.centrado{
+    display: table;
+    margin: auto;
+}
+.centrado h1{
+    background-color: black;
+    float:left;
+    position: relative;
+} 
+  .centrado span{
+      position: absolute;
+  width: 0;
+right: 0;
+  background-color: black;
+  border-left: solid 2px white;
+animation: maquina 5s infinite alternate steps(28);  
+}
+
+@keyframes maquina {
+from{width:100% ;
+
+}   
+to{width: 0%;
+
+} 
+}
+  
+
+
+#yo {
+margin-top: 40px;}
+#carouselExampleControls{margin-top:19px}
+@media screen and (max-width:900px){
+   
+   #imgproyecto, #voley, #auto ,#maiten{
+      
+        height: 50vh;
+    }
+
+    #textolargo{font-size: 14px;} 
+
+#mec {
+    font-size: 13px;
+}
+#carouselExampleIndicators{margin-top:20px ;} 
+}
+
+@media screen and (max-width:767px){
+    h1{ font-size: 20px}
+    #fuego {height:20px}
+    #imgproyecto, #voley, #auto ,#maiten{
+        height: 35vh;
+    }
+h4{font-size: 20px; }
+  
+    li { font-size: 12px; }  
+    #cv a{ font-size: 12px;
+   
+    }
+    #cv{ margin-top: 4px;}
+    #carouselExampleIndicators{margin-top:30px ;}
+
+    #name,#mensaje,#email , #enviar{
+        font-size: 15px;
+        width:70% ;
+    }
+    #textolargo{font-size: 10px;}      
+footer { font-size: 1.2vh;}
+
+}
+
+
+@media screen and (max-width:576px){
+   
+   
+   
+    #menuhermetico{
+        border-color:#CB4B16 ;
+ 
+    }
+    
+   
+    #carouselExampleIndicators {display: none;}
+
+    #colhtml,#colcss,#colboot,#coljava{
+        width: 100px;
+   height: 35vh;
+margin-left:1px;     
+
+}
+    #htmlp,#cssp,#bootp,#jvsp {
+        font-size: 80%;
+        
+          
+      
+      }
+     
+  
+
+
+   
+      
+  
+
+    footer p {
+font-size: 1vh;
+    }
+
+    
+    #name,#mensaje,#email , #enviar{
+        font-size: 15px;
+        width:70% ;
+    }
+        
+
+}
+
+@media screen and (max-width:400px){
+
+    #name,#mensaje,#email , #enviar{
+        font-size: 15px;
+       
+;
+width: 100%;    
+}
+.nombreyapellido  {margin-top: 10px;}
+#formulario{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    
+}
+}
